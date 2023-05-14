@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><Hi></title>
+  </head>
+  <body>
+    <h1>Books</h1>
+    <ul>
+      <% for(var i=0; i<books.length; i++) { %>
+        <li><%= books[i].title %> - <%= books[i].author %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
